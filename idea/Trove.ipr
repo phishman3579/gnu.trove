@@ -29,7 +29,12 @@
       <entry name="?*.tld" />
       <entry name="?*.ftl" />
     </wildcardResourcePatterns>
-    <annotationProcessing enabled="false" useClasspath="true" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.6" />
   </component>
   <component name="CopyrightManager" default="">
     <module2copyright />
@@ -38,6 +43,9 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="FacetAutodetectingManager">
     <autodetection-disabled>
       <facet-type id="ejb" />
@@ -209,7 +217,7 @@
       <module fileurl="file://$PROJECT_DIR$/Generator.iml" filepath="$PROJECT_DIR$/Generator.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.6.0_21" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="$TROVE_JDK_NAME$" project-jdk-type="JavaSDK">
     <output url="file://$TROVE_TOP_LEVEL$/idea_classes" />
   </component>
   <component name="ProjectRunConfigurationManager">
@@ -222,7 +230,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="gnu.trove.generator.Generator" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="-c templates ../gen_output" />
+      <option name="PROGRAM_PARAMETERS" value="templates ../gen_output" />
       <option name="WORKING_DIRECTORY" value="file://$TROVE_VCS_ROOT$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -231,6 +239,11 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Generator" />
       <envs />
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="WINDOW" value="false" />
+        <option name="JVMPI" value="false" />
+        <option name="INTERPRETED" value="false" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -247,7 +260,7 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
-    <mapping directory="$TROVE_VCS_ROOT$" vcs="svn" />
+    <mapping directory="$TROVE_VCS_ROOT$" vcs="Git" />
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />
   <component name="libraryTable">

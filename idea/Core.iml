@@ -19,7 +19,7 @@
       <excludeFolder url="file://$TROVE_VCS_ROOT$/test/gnu/trove/benchmark/colt" />
       <excludeFolder url="file://$TROVE_VCS_ROOT$/test/gnu/trove/benchmark/trove2" />
     </content>
-    <orderEntry type="jdk" jdkName="1.7.0_07" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Generator" exported="" />
     <orderEntry type="module-library">

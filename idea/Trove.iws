@@ -1,54 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BuildServerSettings">
-    <option name="HISTORY" value="" />
     <option name="LOGIN" value="" />
     <option name="SERVER_URL" value="http://buildserver" />
     <option name="PASSWORD" />
     <option name="REMEMBER_ME" value="true" />
     <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
-    <option name="INSPECTIONS_BUILD_TYPE_NAME" />
-    <option name="INSPECTIONS_PROJECT_ID" />
-    <option name="INSPECTIONS_BUILD_TYPE_ID" />
-    <option name="DUPLICATES_BUILD_TYPE_NAME" />
-    <option name="DUPLICATES_PROJECT_ID" />
-    <option name="DUPLICATES_BUILD_TYPE_ID" />
+    <option name="TEST_STATUS_BUILD_TYPE_IDS" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
     <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
     <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
     <option name="REQUEST_CONFIRMATON" value="false" />
     <option name="PRE_TESTED_COMMIT" value="true" />
-    <option name="FILTER_BY_USER" value="true" />
-    <option name="FILTER_REMOTE_RUN_TREE" value="true" />
+    <option name="PROJECT_STATUS_DIALOG_SPLITTER_DIVIDER_LOCATION" value="500" />
+    <option name="CHANGES_STATUS_DIALOG_SPLITTER_DIVIDER_LOCATION" value="500" />
     <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
     <option name="SHOW_CLOSE_PROMPT" value="true" />
-    <TreeState key="project">
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Root" />
-          <option name="myItemType" value="jetbrains.buildServer.tree.descriptors.RootDescriptor" />
-        </PATH_ELEMENT>
-      </PATH>
-    </TreeState>
-    <TreeState key="changes">
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Root" />
-          <option name="myItemType" value="jetbrains.buildServer.tree.descriptors.RootDescriptor" />
-        </PATH_ELEMENT>
-      </PATH>
-    </TreeState>
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8f495ba-d910-47e1-be1a-e84ca733090d" name="Default" comment="">
+    <list default="true" readonly="true" id="f8f495ba-d910-47e1-be1a-e84ca733090d" name="Default" comment="Updated IDEA projects with new repo and JDK info.&#10;Path variable &quot;TROVE_JDK_NAME&quot; should be used to identify the JDK to use.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core.iml" afterPath="$PROJECT_DIR$/Core.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generator.iml" afterPath="$PROJECT_DIR$/Generator.iml" />
+      <change type="MODIFICATION" beforePath="$TROVE_VCS_ROOT$/test/gnu/trove/list/linked/TLinkedListTest.java" afterPath="$TROVE_VCS_ROOT$/test/gnu/trove/list/linked/TLinkedListTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trove.ipr" afterPath="$PROJECT_DIR$/Trove.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Trove.iws" afterPath="$PROJECT_DIR$/Trove.iws" />
+      <change type="MODIFICATION" beforePath="$TROVE_VCS_ROOT$/templates/gnu/trove/list/linked/_E_LinkedList.template" afterPath="$TROVE_VCS_ROOT$/templates/gnu/trove/list/linked/_E_LinkedList.template" />
     </list>
+    <list id="60d59ca2-e7a5-4dfd-af1d-f97b8add9f9a" name="DON'T CHECK IN" comment="DON'T CHECK IN" />
+    <list id="ec4f57a1-6db4-4c73-8fb1-79eb1b84c06d" name="benchmark work" comment="benchmark work" />
     <ignored path="Trove.iws" />
-    <ignored path="$USER_HOME_GRIFFON$/" />
-    <ignored path="$USER_HOME_GRAILS$/" />
+    <ignored path="$USER_HOME$/.griffon/" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$USER_HOME$/.grails/" />
+    <file path="/a.dummy" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1358957203850" ignored="false" />
+    <file path="/Dummy.txt" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069543965" ignored="false" />
+    <file path="/fragment.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069385647" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TLongDoubleMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346174" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TLongCharMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346174" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TLongByteMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346174" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TIntShortMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346174" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TIntSetDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346174" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TIntObjectMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346174" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TIntLongMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346174" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TIntListDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346174" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TIntIntMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346174" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TIntFloatMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TIntDoubleMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TIntCharMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TIntByteMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TFloatShortMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TFloatSetDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TFloatObjectMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TFloatLongMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TFloatListDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TFloatIntMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TFloatFloatMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TFloatDoubleMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TFloatCharMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TFloatByteMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TDoubleShortMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TDoubleSetDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TDoubleObjectMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TDoubleLongMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TDoubleListDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TDoubleIntMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TDoubleFloatMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TDoubleDoubleMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TDoubleCharMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TDoubleByteMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TCharShortMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TCharSetDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TCharObjectMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TCharLongMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TCharListDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TCharIntMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TCharFloatMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TCharDoubleMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TCharCharMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TCharByteMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TByteShortMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TByteSetDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TByteObjectMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TByteLongMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TByteListDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TByteIntMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TByteFloatMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346175" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TByteDoubleMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TByteCharMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TByteByteMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/TShortCollection.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/TLongCollection.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/TIntCollection.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/TFloatCollection.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/TDoubleCollection.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/TDecorators.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/TCollections.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/TCharCollection.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/TByteCollection.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TShortShortMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TShortSetDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TShortObjectMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TShortLongMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TShortListDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TShortIntMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TShortFloatMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TShortDoubleMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TShortCharMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TShortByteMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TObjectShortMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TObjectLongMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TObjectIntMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TObjectFloatMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TObjectDoubleMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TObjectCharMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TObjectByteMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TLongShortMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TLongSetDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TLongObjectMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TLongLongMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TLongListDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TLongIntMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/decorator/TLongFloatMapDecorator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068346176" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TDoubleProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="/TLinkedListTest.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362068437442" ignored="false" />
+    <file path="/TIntLinkedList.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069145139" ignored="false" />
+    <file path="/_E_LinkedList.template" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069204180" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/iterator/TDoubleByteIterator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/iterator/TIntIterator.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/list/TIntList.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/map/TDoubleByteMap.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/function/TIntFunction.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TLongLongProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TLongObjectProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TLongProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TLongShortProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TObjectByteProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TObjectCharProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TObjectDoubleProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TObjectFloatProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TObjectIntProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TObjectLongProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TObjectShortProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TShortByteProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TShortCharProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TShortDoubleProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TShortFloatProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TShortIntProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TShortLongProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TShortObjectProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TShortProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321704" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TShortShortProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TByteByteProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TByteCharProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TByteDoubleProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TByteFloatProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TByteIntProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TByteLongProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TByteObjectProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TByteProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TByteShortProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TCharByteProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TCharCharProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TCharDoubleProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TCharFloatProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TCharIntProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TCharLongProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TCharObjectProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TCharProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TCharShortProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TDoubleByteProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TDoubleCharProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TDoubleDoubleProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TDoubleFloatProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TDoubleIntProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TDoubleLongProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TDoubleObjectProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TDoubleShortProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TFloatByteProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TFloatCharProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TFloatDoubleProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TFloatFloatProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TFloatIntProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TFloatLongProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TFloatObjectProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TFloatProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321705" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TFloatShortProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TIntByteProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TIntCharProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TIntDoubleProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TIntFloatProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TIntIntProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TIntLongProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TIntObjectProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TIntProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TIntShortProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TLongByteProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TLongCharProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TLongDoubleProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TLongFloatProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/procedure/TLongIntProcedure.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TCharByteHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TByteByteHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TByteShortHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TByteLongHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TByteIntHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TByteHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TByteFloatHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TByteDoubleHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TByteCharHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TCharLongHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TCharIntHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TCharHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TCharFloatHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TCharDoubleHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TCharCharHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321706" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TDoubleFloatHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TDoubleDoubleHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TDoubleCharHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TDoubleByteHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TCharShortHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TFloatLongHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TIntFloatHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TFloatIntHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TIntDoubleHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TFloatHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TIntCharHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TIntByteHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TDoubleLongHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TDoubleIntHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TDoubleHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TIntIntHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TFloatFloatHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TFloatDoubleHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TIntHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TFloatShortHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TFloatCharHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TFloatByteHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TDoubleShortHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TLongFloatHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TShortLongHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TLongDoubleHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TShortShortHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TIntShortHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TIntLongHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TShortIntHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TShortHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TLongShortHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321707" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TShortFloatHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321708" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TLongCharHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321708" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TLongLongHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321708" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TLongIntHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321708" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TShortDoubleHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321708" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TLongByteHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321708" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TShortCharHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321708" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TShortByteHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321708" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TLongHash.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321708" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/list/linked/TCharLinkedList.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069393469" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/list/linked/TDoubleLinkedList.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069393469" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/list/linked/TFloatLinkedList.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069393469" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/map/hash/TDoubleByteHashMap.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321980" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/list/linked/TLongLinkedList.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069393470" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/list/linked/TShortLinkedList.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069393470" ignored="false" />
+    <file path="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/map/hash/TLongIntHashMap.java" changelist="f8f495ba-d910-47e1-be1a-e84ca733090d" time="1362069321980" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +277,6 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-    <option name="REVERSE_PATCH" value="false" />
   </component>
   <component name="Cvs2Configuration">
     <option name="UPDATE_DATE_OR_REVISION_SETTINGS">
@@ -73,22 +291,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints>
-      <breakpoint url="file://$TROVE_VCS_ROOT$/src/gnu/trove/list/linked/TLinkedList.java" line="806" class="gnu.trove.list.linked.TLinkedList.IteratorImpl" package="gnu.trove.list.linked">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -96,6 +300,7 @@
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="false" />
@@ -111,6 +316,7 @@
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
         <option name="COUNT_FILTER" value="0" />
         <option name="CONDITION_ENABLED" value="false" />
@@ -120,15 +326,68 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints>
+      <breakpoint url="file://$TROVE_VCS_ROOT$/test/gnu/trove/list/linked/TLinkedListTest.java" line="1127" class="gnu.trove.list.linked.TLinkedListTest" package="gnu.trove.list.linked">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Trove" />
   </component>
-  <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="TLinkedListTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$TROVE_VCS_ROOT$/test/gnu/trove/list/linked/TLinkedListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1127" column="0" selection-start="32954" selection-end="32954" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TIntLinkedList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$TROVE_TOP_LEVEL$/gen_output/gnu/trove/list/linked/TIntLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="994" column="8" selection-start="25454" selection-end="25468" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_E_LinkedList.template" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$TROVE_VCS_ROOT$/templates/gnu/trove/list/linked/_E_LinkedList.template">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="45" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TByteLinkedList.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$TROVE_TOP_LEVEL$/gen_output/gnu/trove/list/linked/TByteLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="0" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.057337884">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -136,35 +395,65 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
-    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$TROVE_VCS_ROOT$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$TROVE_VCS_ROOT$/templates/gnu/trove/list/_E_List.template" />
-        <option value="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TIntHash.java" />
-        <option value="$TROVE_VCS_ROOT$/test/gnu/trove/map/hash/TPrimitiveObjectHashMapTest.java" />
-        <option value="$TROVE_VCS_ROOT$/test/gnu/trove/benchmark/BenchmarkRunner.java" />
-        <option value="$TROVE_VCS_ROOT$/test/gnu/trove/benchmark/JavaHashMapPut.java" />
-        <option value="$TROVE_VCS_ROOT$/src/gnu/trove/benchmark/BenchmarkRunner.java" />
-        <option value="$TROVE_VCS_ROOT$/src/gnu/trove/benchmark/BenchmarkSet.java" />
-        <option value="$TROVE_VCS_ROOT$/src/gnu/trove/benchmark/JavaHashMapPut.java" />
-        <option value="$TROVE_VCS_ROOT$/src/gnu/trove/list/linked/TLinkedList.java" />
+        <option value="$TROVE_VCS_ROOT$/test/gnu/trove/TempTestApp.java" />
+        <option value="$TROVE_VCS_ROOT$/benchmarks/src/gnu/trove/benchmark/MapHammer.java" />
+        <option value="$TROVE_VCS_ROOT$/test/gnu/trove/list/array/TArrayListTest.java" />
+        <option value="$TROVE_VCS_ROOT$/build.xml" />
+        <option value="$TROVE_VCS_ROOT$/src/gnu/trove/map/hash/TCustomHashMap.java" />
+        <option value="$TROVE_VCS_ROOT$/test/gnu/trove/map/hash/VerifyIntObjectHashMap.java" />
+        <option value="$TROVE_VCS_ROOT$/CHANGES.txt" />
+        <option value="$TROVE_VCS_ROOT$/src/gnu/trove/strategy/IdentityHashingStrategy.java" />
+        <option value="$TROVE_VCS_ROOT$/templates/gnu/trove/map/_E_ObjectMap.template" />
+        <option value="$TROVE_VCS_ROOT$/templates/gnu/trove/map/hash/_E_ObjectHashMap.template" />
+        <option value="$TROVE_VCS_ROOT$/templates/gnu/trove/impl/sync/Synchronized_E_ObjectMap.template" />
+        <option value="$TROVE_VCS_ROOT$/templates/gnu/trove/impl/unmodifiable/Unmodifiable_E_ObjectMap.template" />
+        <option value="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TDoubleByteHash.java" />
         <option value="$TROVE_VCS_ROOT$/test/gnu/trove/list/linked/TLinkedListTest.java" />
+        <option value="$TROVE_TOP_LEVEL$/gen_output/gnu/trove/list/linked/TIntLinkedList.java" />
+        <option value="$TROVE_VCS_ROOT$/templates/gnu/trove/list/linked/_E_LinkedList.template" />
       </list>
     </option>
-  </component>
-  <component name="InspectionPassRegistrar">
-    <option name="LOAD_NEW_PROBLEMS" value="true" />
   </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
+    <option name="y" value="-527" />
+    <option name="width" value="1080" />
+    <option name="height" value="1920" />
+  </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
-      <profile-state />
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>UnnecessaryBoxing</id>
+          </State>
+        </selected-state>
+      </profile-state>
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -186,13 +475,33 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="true" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,7 +538,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gnu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -251,11 +564,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gnu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="trove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="working" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gnu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -277,7 +628,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gnu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trove" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="working" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gnu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -302,128 +687,9 @@
               <option name="myItemId" value="Core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="working" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trove" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trove" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="working" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trove" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trove" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="working" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trove" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="working" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="benchmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gnu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trove" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="benchmark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trove" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="working" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="benchmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trove" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Favorites">
         <subPane subId="Trove">
           <PATH>
@@ -434,79 +700,103 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trove" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trove" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trove" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gnu.trove" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="51" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="41" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="26" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="55" />
+    <property name="options.splitter.main.proportions" value="0.22322322" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="46" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="42" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="last_opened_file_path" value="$TROVE_VCS_ROOT$" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="48" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="425" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="422" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="48" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="433" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="425" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="38d3359b-4cbf-463d-8eaa-adaa874b3822">
+        <serverdata>
+          <mappings>
+            <mapping local="$TROVE_VCS_ROOT$/generator_src" />
+            <mapping local="$TROVE_VCS_ROOT$/generator_test" />
+            <mapping local="$TROVE_TOP_LEVEL$/gen_output" />
+            <mapping local="$TROVE_VCS_ROOT$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="fe52e443-5103-4f00-b934-8e1404f7941f">
+        <serverdata>
+          <mappings>
+            <mapping local="$TROVE_VCS_ROOT$/generator_src" />
+            <mapping local="$TROVE_VCS_ROOT$/generator_test" />
+            <mapping local="$TROVE_TOP_LEVEL$/gen_output" />
+            <mapping local="$TROVE_VCS_ROOT$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gnu.trove.benchmark.compare" />
+      <recent name="gnu.trove.benchmark.colt" />
+      <recent name="gnu.trove.benchmark.trove2" />
+      <recent name="gnu.trove.map.hash" />
+      <recent name="gnu.trove.set.hash" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\reden.TCS\Documents\trove\working\templates\gnu\trove\map\hash" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="gnu.trove.strategy" />
       <recent name="gnu.trove.benchmark" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All Tests">
-    <configuration default="false" name="TPrimitiveObjectHashMapTest.testBug2975214" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="gnu.trove.map.hash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.TLinkedListTest.testLastIndexOf">
+    <configuration default="false" name="TObjectPrimitiveHashMapTest.testBug3232758" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
       <module name="Core" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="gnu.trove.map.hash" />
-      <option name="MAIN_CLASS_NAME" value="gnu.trove.map.hash.TPrimitiveObjectHashMapTest" />
-      <option name="METHOD_NAME" value="testBug2975214" />
+      <option name="MAIN_CLASS_NAME" value="gnu.trove.map.hash.TObjectPrimitiveHashMapTest" />
+      <option name="METHOD_NAME" value="testBug3232758" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -519,17 +809,50 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="51091" />
+        <option name="DEBUG_PORT" value="58708" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="WINDOW" value="false" />
+        <option name="JVMPI" value="false" />
+        <option name="INTERPRETED" value="false" />
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="TLinkedListTest.testBinarySearch" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
+      <module name="Core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jre1.6.0_17" />
+      <option name="PACKAGE_NAME" value="gnu.trove.list.linked" />
+      <option name="MAIN_CLASS_NAME" value="gnu.trove.list.linked.TLinkedListTest" />
+      <option name="METHOD_NAME" value="testBinarySearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="WINDOW" value="false" />
+        <option name="JVMPI" value="false" />
+        <option name="INTERPRETED" value="false" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="TLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="gnu.trove.list.linked.*" />
           <option name="ENABLED" value="true" />
@@ -561,8 +884,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TLinkedListTest.testShuffle" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
+    <configuration default="false" name="TLinkedListTest.testLastIndexOf" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="gnu.trove.list.linked.*" />
           <option name="ENABLED" value="true" />
@@ -570,14 +893,14 @@
       </extension>
       <module name="Core" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="gnu.trove.list.linked" />
       <option name="MAIN_CLASS_NAME" value="gnu.trove.list.linked.TLinkedListTest" />
-      <option name="METHOD_NAME" value="testShuffle" />
+      <option name="METHOD_NAME" value="testLastIndexOf" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -586,85 +909,7 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50719" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="JProfiler">
-        <option name="WINDOW" value="false" />
-        <option name="JVMPI" value="false" />
-        <option name="INTERPRETED" value="false" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TLinkedListTest.testFirstLastIteratorSwap" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="gnu.trove.list.linked.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Core" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="gnu.trove.list.linked" />
-      <option name="MAIN_CLASS_NAME" value="gnu.trove.list.linked.TLinkedListTest" />
-      <option name="METHOD_NAME" value="testFirstLastIteratorSwap" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50793" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="JProfiler">
-        <option name="WINDOW" value="false" />
-        <option name="JVMPI" value="false" />
-        <option name="INTERPRETED" value="false" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TLinkedListTest.testIteratorSwapSequential" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false">
-        <pattern>
-          <option name="PATTERN" value="gnu.trove.list.linked.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Core" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="gnu.trove.list.linked" />
-      <option name="MAIN_CLASS_NAME" value="gnu.trove.list.linked.TLinkedListTest" />
-      <option name="METHOD_NAME" value="testIteratorSwapSequential" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="52217" />
+        <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -684,11 +929,7 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
@@ -706,15 +947,10 @@
         <option name="JVMPI" value="false" />
         <option name="INTERPRETED" value="false" />
       </RunnerSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" />
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -731,15 +967,10 @@
         <option name="JVMPI" value="false" />
         <option name="INTERPRETED" value="false" />
       </RunnerSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" />
+      <extension name="coverage" enabled="false" merge="false" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -762,12 +993,7 @@
         <option name="JVMPI" value="false" />
         <option name="INTERPRETED" value="false" />
       </RunnerSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="false" name="Generator Test" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -788,6 +1014,11 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="WINDOW" value="false" />
+        <option name="JVMPI" value="false" />
+        <option name="INTERPRETED" value="false" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -811,32 +1042,55 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53406" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JProfiler">
+        <option name="WINDOW" value="false" />
+        <option name="JVMPI" value="false" />
+        <option name="INTERPRETED" value="false" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TPrimitiveObjectHashMapTest.testBug2975214" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TLinkedListTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TLinkedListTest.testShuffle" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TLinkedListTest.testFirstLastIteratorSwap" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Generator Test" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.All Tests" />
-      <item index="6" class="java.lang.String" itemvalue="Application.Generator" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.TLinkedListTest.testIteratorSwapSequential" />
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Application.Generator" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Generator Test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All Tests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TObjectPrimitiveHashMapTest.testBug3232758" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TLinkedListTest.testBinarySearch" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TLinkedListTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.TLinkedListTest.testLastIndexOf" />
     </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TLinkedListTest.testLastIndexOf" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TLinkedListTest" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value="SHOW_NON_PUBLIC,SHOW_INHERITED,ALPHA_COMPARATOR,SHOW_FIELDS" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
   </component>
-  <component name="SvnConfiguration" maxAnnotateRevisions="500">
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value="SHOW_NON_PUBLIC,ALPHA_COMPARATOR,SHOW_FIELDS" />
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
     <option name="LAST_MERGED_REVISION" />
     <option name="MERGE_DRY_RUN" value="false" />
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
@@ -847,68 +1101,101 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$TROVE_VCS_ROOT$" />
-          <option name="myCopyRoot" value="$TROVE_VCS_ROOT$" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$TROVE_VCS_ROOT$" />
-          <option name="myCopyRoot" value="$TROVE_VCS_ROOT$" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
+  <component name="SvnConfiguration17" maxAnnotateRevisions="500">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <configuration useDefault="false">C:\Users\reden.TCS\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f8f495ba-d910-47e1-be1a-e84ca733090d" name="Default" comment="" />
+      <changelist id="60d59ca2-e7a5-4dfd-af1d-f97b8add9f9a" name="DON'T CHECK IN" comment="" />
+      <changelist id="ec4f57a1-6db4-4c73-8fb1-79eb1b84c06d" name="benchmark work" comment="" />
       <created>1267111902568</created>
       <updated>1267111902568</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="22" width="1370" height="986" extended-state="0" />
-    <editor active="false" />
+    <frame x="1920" y="-527" width="1080" height="1920" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2543515" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.252809" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39726806" sideWeight="0.76137" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329539" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2655068" sideWeight="0.58545035" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2655068" sideWeight="0.6709007" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3856813" sideWeight="0.5926748" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="RMI Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33032694" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25210086" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45777777" sideWeight="0.8364146" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32685906" sideWeight="0.49709865" order="20" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29651162" sideWeight="0.3709869" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977527" sideWeight="0.0" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32666665" sideWeight="0.49613154" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24564797" sideWeight="0.49833333" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24564797" sideWeight="0.33444443" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16333333" sideWeight="0.5926748" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29962194" sideWeight="0.64902186" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28476822" sideWeight="0.31388888" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Analyze Dataflow from" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="IDE talk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30329457" sideWeight="0.60461193" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293919" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="RMI Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295838" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Properties" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978126" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32796893" sideWeight="0.4961905" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Analyze Dataflow to" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
     <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
@@ -916,13 +1203,24 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
-    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update JDK and version control type" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change &quot;V[] values()&quot; for maps with Object values to return Object array (see https://sourceforge.net/projects/trove4j/forums/forum/121846/topic/4864778/index/page/1)" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
@@ -934,10 +1232,31 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="Correct documentation of toArray(e[],int,int) per bug 2958750" />
-    <MESSAGE value="Test for bug 2975214" />
-    <MESSAGE value="Fix for bug 2993599 - TLinkedList is not a correct AbstractSequentialList&#10;Fix swap() behavior in iterator to make Collections.shuffle() behave." />
-    <MESSAGE value="Update JDK and version control type" />
+    <MESSAGE value="Fix bad imports." />
+    <MESSAGE value="Change TCustomObject*HashMap to TObject*CustomHashMap (more consistent name with TCustomHashMap, and slightly more correct with regard to what the &quot;custom&quot; is modifying). Update the CHANGES.txt file with 3.0.0 changes." />
+    <MESSAGE value="Pull out &quot;*31&quot; from HashFunctions.hash for ints and longs. It's not really working as advertised and the performance impact is noticeable.&#10;Also add new Caliper benchmarks for basic operation. The tie-in to Ant and TeamCity isn't done yet and there aren't too many benchmarks yet." />
+    <MESSAGE value="Fix for bug 3153005 - null keys in maps" />
+    <MESSAGE value="Library comparison benchmarks" />
+    <MESSAGE value="Fixes to serialVersionUID's and where Serializable is marked. For example, Serializable has been removed from the interfaces for various collections (to better match how it's done in java.util)." />
+    <MESSAGE value="Extra check to deal with equals methods that don't handle null.&#10;See https://sourceforge.net/projects/trove4j/forums/forum/121847/topic/4043262" />
+    <MESSAGE value="Update change list for a7" />
+    <MESSAGE value="Fix for issue 3159432, deal with THashMap.entrySet().remove() being given null or bad class arguments." />
+    <MESSAGE value="Updated change log." />
+    <MESSAGE value="Minor cleanup of readme file. Update HashingStrategy example." />
+    <MESSAGE value="Remove unused class" />
+    <MESSAGE value="Fix for issue 3182548: Correct usage of bounded wildcards" />
+    <MESSAGE value="Performance improvement for THashMap.get(). Add benchmarks for THashMap" />
+    <MESSAGE value="Additional tests to check issues reported in bug 3197201 (tests pass, btw. Bug cannot currently be confirmed)" />
+    <MESSAGE value="Change PObjectMap.values() to return Object[] rather than T[]." />
+    <MESSAGE value="Fix for bug 3232758: problem dealing with high load factor on compaction." />
+    <MESSAGE value="Test app for beating on a map." />
+    <MESSAGE value="Unit test for null values." />
+    <MESSAGE value="Tests for TIntArrayList.testBinarySearch()" />
+    <MESSAGE value="Unit tests for list binarySearch()" />
+    <MESSAGE value="Updates for fixed issues." />
+    <MESSAGE value="Add missing fixed issues" />
+    <MESSAGE value="Static instance to allow sharing a single instance with multiple collections." />
+    <MESSAGE value="Change &quot;V[] values()&quot; for maps with Object values to return Object array (see https://sourceforge.net/projects/trove4j/forums/forum/121846/topic/4864778/index/page/1)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -953,7 +1272,6 @@
         <filter targetName="test" isVisible="true" />
         <filter targetName="javadoc" isVisible="false" />
         <filter targetName="-build_generator" isVisible="false" />
-        <filter targetName="jarsrc" isVisible="false" />
         <filter targetName="clean" isVisible="true" />
         <filter targetName="benchmark" isVisible="true" />
         <filter targetName="-init" isVisible="false" />
@@ -964,56 +1282,113 @@
         <filter targetName="-build_tests" isVisible="false" />
         <filter targetName="release" isVisible="true" />
         <filter targetName="dist" isVisible="true" />
+        <filter targetName="-print_buildNumber" isVisible="false" />
+        <filter targetName="-version_buildNumber" isVisible="false" />
+        <filter targetName="-version_none" isVisible="false" />
+        <filter targetName="-version_versionNumber" isVisible="false" />
+        <filter targetName="-findVersion" isVisible="false" />
       </targetFilters>
       <treeView value="true" />
       <verbose value="true" />
       <viewClosedWhenNoErrors value="false" />
+      <expanded value="true" />
     </buildFile>
   </component>
+  <component name="atlassian-ide-plugin-workspace">
+    <option name="bambooConfiguration">
+      <BambooWorkspaceConfiguration>
+        <option name="view">
+          <BambooViewConfigurationBean />
+        </option>
+      </BambooWorkspaceConfiguration>
+    </option>
+    <option name="defaultCredentials">
+      <UserCfgBean />
+    </option>
+  </component>
+  <component name="atlassian-ide-plugin-workspace-issues">
+    <option name="view">
+      <JiraViewConfigurationBean>
+        <option name="viewFilterId" value="" />
+      </JiraViewConfigurationBean>
+    </option>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TIntHash.java">
+    <entry file="file://$TROVE_TOP_LEVEL$/gen_output/gnu/trove/map/hash/TDoubleByteHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="31" selection-start="9428" selection-end="9428" vertical-scroll-proportion="0.009572072" />
+        <state line="196" column="23" selection-start="6637" selection-end="6637" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$TROVE_VCS_ROOT$/test/gnu/trove/map/hash/TPrimitiveObjectHashMapTest.java">
+    <entry file="file://$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TDoubleByteHash.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="5" selection-start="3525" selection-end="3525" vertical-scroll-proportion="0.40080506" />
+        <state line="254" column="29" selection-start="7542" selection-end="7542" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$TROVE_TOP_LEVEL$/gen_output/gnu/trove/list/TIntList.java">
+    <entry file="file://$TROVE_TOP_LEVEL$/gen_output/gnu/trove/map/hash/TDoubleByteHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="27" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.22805017" />
+        <state line="196" column="23" selection-start="6637" selection-end="6637" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$TROVE_TOP_LEVEL$/gen_output/gnu/trove/list/array/TIntArrayList.java">
+    <entry file="file://$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TDoubleByteHash.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="42" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.1368301" />
+        <state line="254" column="29" selection-start="7542" selection-end="7542" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$TROVE_VCS_ROOT$/src/gnu/trove/list/TLinkable.java">
+    <entry file="file://$TROVE_TOP_LEVEL$/gen_output/gnu/trove/impl/hash/TDoubleByteHash.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="13" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.33301798" />
+        <state line="263" column="61" selection-start="7746" selection-end="7746" vertical-scroll-proportion="0.12286689">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$TROVE_VCS_ROOT$/README-license.txt">
+    <entry file="file://$TROVE_TOP_LEVEL$/gen_output/gnu/trove/map/hash/TDoubleByteHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="869" selection-end="869" vertical-scroll-proportion="0.31158715" />
-      </provider>
-    </entry>
-    <entry file="file://$TROVE_VCS_ROOT$/LICENSE.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="415" column="55" selection-start="22184" selection-end="22184" vertical-scroll-proportion="0.015311005" />
-      </provider>
-    </entry>
-    <entry file="file://$TROVE_VCS_ROOT$/src/gnu/trove/list/linked/TLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="786" column="0" selection-start="23112" selection-end="23112" vertical-scroll-proportion="0.42915452" />
+        <state line="196" column="23" selection-start="6637" selection-end="6637" vertical-scroll-proportion="0.012286689">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$TROVE_VCS_ROOT$/test/gnu/trove/list/linked/TLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="985" column="0" selection-start="29331" selection-end="29331" vertical-scroll-proportion="0.34046242" />
+        <state line="1127" column="0" selection-start="32954" selection-end="32954" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$TROVE_VCS_ROOT$/templates/gnu/trove/map/hash/_E_ObjectHashMap.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="23" selection-start="3075" selection-end="3112" vertical-scroll-proportion="0.7449324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$TROVE_TOP_LEVEL$/gen_output/gnu/trove/list/linked/TIntLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="994" column="8" selection-start="25454" selection-end="25468" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$TROVE_VCS_ROOT$/templates/gnu/trove/list/linked/_E_LinkedList.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="45" selection-start="1653" selection-end="1653" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$TROVE_TOP_LEVEL$/gen_output/gnu/trove/list/linked/TByteLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1510" selection-end="1510" vertical-scroll-proportion="0.057337884">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
@@ -1038,7 +1413,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1050,7 +1425,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>JasperReports</last-edited>
+          <last-edited>Lilith Libs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1074,7 +1449,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Core</last-edited>
+          <last-edited>Generator</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
