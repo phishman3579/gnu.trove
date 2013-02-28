@@ -44,13 +44,14 @@ import java.util.*;
  * A resizable, double linked list of #e# primitives.
  */
 public class T#E#LinkedList implements T#E#List, Externalizable {
-    #e# no_entry_value;
-    int size;
+    private #e# no_entry_value;
+    private int size;
 
-    T#E#Link head = null;
-    T#E#Link tail = head;
+    private T#E#Link head = null;
+    private T#E#Link tail = head;
 
     public T#E#LinkedList() {
+    	this( Constants.DEFAULT_#EC#_NO_ENTRY_VALUE );
     }
 
     public T#E#LinkedList(#e# no_entry_value) {
@@ -764,12 +765,16 @@ public class T#E#LinkedList implements T#E#List, Externalizable {
     /** {@inheritDoc} */
     public int indexOf(int offset, #e# value) {
         int count = offset;
-        for (T#E#Link l = getLinkAt(offset); got(l.getNext()); l = l.getNext()) {
+
+        T#E#Link l;
+        for (l = getLinkAt(offset); got(l.getNext()); l = l.getNext()) {
             if (l.getValue() == value)
                 return count;
 
             count++;
         }
+
+        if ( l != null && l.getValue() == value ) return count;
 
         return -1;
     }
