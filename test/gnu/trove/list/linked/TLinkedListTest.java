@@ -1114,6 +1114,21 @@ public class TLinkedListTest extends TestCase {
 	}
 
 
+	// Test for https://bitbucket.org/robeden/trove/issue/16/
+	public void testLastIndexOf() {
+		TIntLinkedList list = new TIntLinkedList();
+		list.add( 0 );
+		list.add( 1 );
+		list.add( 2 );
+		list.add( 3 );
+
+		assertEquals( list.indexOf( 0 ), 0 );
+		assertEquals( list.indexOf( 1 ), 1 );
+		assertEquals( list.indexOf( 2 ), 2 );
+		assertEquals( list.indexOf( 3 ), 3 );
+	}
+
+
     static class Data implements TLinkable<Data> {
 
         protected int _val;
