@@ -3,6 +3,7 @@ package gnu.trove.benchmark;
 /**
  *
  */
+@SuppressWarnings( "UnnecessaryBoxing" )
 class Constants {
 	public static final Integer INT_OBJECTS[] = new Integer[ 1000000 ];
 	public static final int INTS[] = new int[ 1000000 ];
@@ -20,6 +21,13 @@ class Constants {
 		for( int i = 0; i < BYTE_OBJECTS.length; i++ ) {
 			BYTE_OBJECTS[ i ] = Byte.valueOf( value );
 			BYTES[ i ] = value;
+		}
+	}
+
+	public static final String STRING_OBJECTS[] = new String[ 300000 ];
+	static {
+		for( int i = 0; i < STRING_OBJECTS.length; i++ ) {
+			STRING_OBJECTS[ i ] = String.valueOf( i );
 		}
 	}
 }
