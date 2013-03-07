@@ -24,22 +24,6 @@ public class IterationBenchmark extends AbstractComparisonBase {
 	// Bytes...
 
 	@Override
-	public void testByte_JavaHashMap() {
-		int total = 0;
-
-		for( int i = 0; i < ITERATIONS_BYTE; i++ ) {
-			Iterator<Byte> iterator = byte_java_map.keySet().iterator();
-
-			//noinspection WhileLoopReplaceableByForEach
-			while( iterator.hasNext() ) {
-				total += iterator.next().intValue();
-			}
-		}
-
-		int_slot.set( total );
-	}
-
-	@Override
 	public void testByte_TPrimitiveHashMap() {
 		int total = 0;
 
@@ -60,6 +44,22 @@ public class IterationBenchmark extends AbstractComparisonBase {
 
 		for( int i = 0; i < ITERATIONS_BYTE; i++ ) {
 			Iterator<Byte> iterator = byte_t_map.keySet().iterator();
+
+			//noinspection WhileLoopReplaceableByForEach
+			while( iterator.hasNext() ) {
+				total += iterator.next().intValue();
+			}
+		}
+
+		int_slot.set( total );
+	}
+
+	@Override
+	public void testByte_JavaHashMap() {
+		int total = 0;
+
+		for( int i = 0; i < ITERATIONS_BYTE; i++ ) {
+			Iterator<Byte> iterator = byte_java_map.keySet().iterator();
 
 			//noinspection WhileLoopReplaceableByForEach
 			while( iterator.hasNext() ) {
@@ -105,22 +105,6 @@ public class IterationBenchmark extends AbstractComparisonBase {
 	// Ints...
 
 	@Override
-	public void testInt_JavaHashMap() {
-		int total = 0;
-
-		for( int i = 0; i < ITERATIONS_INT; i++ ) {
-			Iterator<Integer> iterator = int_java_map.keySet().iterator();
-
-			//noinspection WhileLoopReplaceableByForEach
-			while( iterator.hasNext() ) {
-				total += iterator.next().intValue();
-			}
-		}
-
-		int_slot.set( total );
-	}
-
-	@Override
 	public void testInt_TPrimitiveHashMap() {
 		int total = 0;
 
@@ -141,6 +125,22 @@ public class IterationBenchmark extends AbstractComparisonBase {
 
 		for( int i = 0; i < ITERATIONS_INT; i++ ) {
 			Iterator<Integer> iterator = int_t_map.keySet().iterator();
+
+			//noinspection WhileLoopReplaceableByForEach
+			while( iterator.hasNext() ) {
+				total += iterator.next().intValue();
+			}
+		}
+
+		int_slot.set( total );
+	}
+
+	@Override
+	public void testInt_JavaHashMap() {
+		int total = 0;
+
+		for( int i = 0; i < ITERATIONS_INT; i++ ) {
+			Iterator<Integer> iterator = int_java_map.keySet().iterator();
 
 			//noinspection WhileLoopReplaceableByForEach
 			while( iterator.hasNext() ) {
@@ -191,22 +191,6 @@ public class IterationBenchmark extends AbstractComparisonBase {
 	// Objects...
 
 	@Override
-	public void testString_JavaHashMap() {
-		int total = 0;
-
-		for( int i = 0; i < ITERATIONS_STRING; i++ ) {
-			Iterator<String> iterator = string_java_map.keySet().iterator();
-
-			//noinspection WhileLoopReplaceableByForEach
-			while( iterator.hasNext() ) {
-				total += iterator.next().length();
-			}
-		}
-
-		int_slot.set( total );
-	}
-
-	@Override
 	public void testString_TPrimitiveHashMap() {
 		int total = 0;
 
@@ -227,6 +211,22 @@ public class IterationBenchmark extends AbstractComparisonBase {
 
 		for( int i = 0; i < ITERATIONS_STRING; i++ ) {
 			Iterator<String> iterator = string_t_map.keySet().iterator();
+
+			//noinspection WhileLoopReplaceableByForEach
+			while( iterator.hasNext() ) {
+				total += iterator.next().length();
+			}
+		}
+
+		int_slot.set( total );
+	}
+
+	@Override
+	public void testString_JavaHashMap() {
+		int total = 0;
+
+		for( int i = 0; i < ITERATIONS_STRING; i++ ) {
+			Iterator<String> iterator = string_java_map.keySet().iterator();
 
 			//noinspection WhileLoopReplaceableByForEach
 			while( iterator.hasNext() ) {

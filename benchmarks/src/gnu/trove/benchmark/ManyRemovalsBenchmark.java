@@ -40,7 +40,7 @@ public class ManyRemovalsBenchmark extends Benchmark {
 		}
 	}
 
-	public void testTObjectIntMap() {
+	public void testTPrimitiveHashMap() {
 		TObjectIntMap<String> map = new TObjectIntHashMap<String>();
 
 		// Add 5, remove the first four, repeat
@@ -75,6 +75,51 @@ public class ManyRemovalsBenchmark extends Benchmark {
 			}
 
 			map.put( s, s );
+			batch_index++;
+
+			if ( batch_index == 5 ) {
+				for( String s_remove : to_remove ) {
+					map.remove( s_remove );
+				}
+				batch_index = 0;
+			}
+		}
+	}
+	public void testTrove2HashMap() {
+		gnu.trove.THashMap<String,String> map = new gnu.trove.THashMap<String, String>();
+
+		// Add 5, remove the first four, repeat
+		String[] to_remove = new String[ 4 ];
+		int batch_index = 0;
+		for( String s : Constants.STRING_OBJECTS ) {
+			if ( batch_index < 4 ) {
+				to_remove[ batch_index ] = s;
+			}
+
+			map.put( s, s );
+			batch_index++;
+
+			if ( batch_index == 5 ) {
+				for( String s_remove : to_remove ) {
+					map.remove( s_remove );
+				}
+				batch_index = 0;
+			}
+		}
+	}
+
+	public void testTrove2PrimitiveHashMap() {
+		gnu.trove.TObjectIntHashMap<String> map = new gnu.trove.TObjectIntHashMap<String>();
+
+		// Add 5, remove the first four, repeat
+		String[] to_remove = new String[ 4 ];
+		int batch_index = 0;
+		for( String s : Constants.STRING_OBJECTS ) {
+			if ( batch_index < 4 ) {
+				to_remove[ batch_index ] = s;
+			}
+
+			map.put( s, s.length() );
 			batch_index++;
 
 			if ( batch_index == 5 ) {

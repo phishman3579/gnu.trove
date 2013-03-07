@@ -13,11 +13,6 @@ public class ForEachBenchmark extends AbstractComparisonBase {
 	// Bytes...
 
 	@Override
-	public void testByte_JavaHashMap() {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
 	public void testByte_TPrimitiveHashMap() {
 		for( int i = 0; i < 5; i++ ) {
 			byte_t_primitive_map.forEachValue( byte_primitive_totaler );
@@ -29,6 +24,11 @@ public class ForEachBenchmark extends AbstractComparisonBase {
 		for( int i = 0; i < 5; i++ ) {
 			byte_t_map.forEachKey( byte_totaler );
 		}
+	}
+
+	@Override
+	public void testByte_JavaHashMap() {
+		throw new UnsupportedOperationException();
 	}
 
 	@Override
@@ -49,11 +49,6 @@ public class ForEachBenchmark extends AbstractComparisonBase {
 	// Ints...
 
 	@Override
-	public void testInt_JavaHashMap() {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
 	public void testInt_TPrimitiveHashMap() {
 		for( int i = 0; i < 5; i++ ) {
 			int_t_primitive_map.forEachKey( int_primitive_totaler );
@@ -65,6 +60,11 @@ public class ForEachBenchmark extends AbstractComparisonBase {
 		for( int i = 0; i < 5; i++ ) {
 			int_t_map.forEachKey( int_totaler );
 		}
+	}
+
+	@Override
+	public void testInt_JavaHashMap() {
+		throw new UnsupportedOperationException();
 	}
 
 	@Override
@@ -92,11 +92,6 @@ public class ForEachBenchmark extends AbstractComparisonBase {
 	// Objects...
 
 	@Override
-	public void testString_JavaHashMap() {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
 	public void testString_TPrimitiveHashMap() {
 		for( int i = 0; i < 5; i++ ) {
 			string_t_primitive_map.forEachKey( string_totaler );
@@ -108,6 +103,11 @@ public class ForEachBenchmark extends AbstractComparisonBase {
 		for( int i = 0; i < 5; i++ ) {
 			string_t_map.forEachKey( string_totaler );
 		}
+	}
+
+	@Override
+	public void testString_JavaHashMap() {
+		throw new UnsupportedOperationException();
 	}
 
 	@Override

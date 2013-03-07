@@ -306,10 +306,12 @@
 				<pathelement location="${output.benchmarks}"/>
 			</classpath>
 
+			<arg value="-i"/>
+			<arg value="10"/>   <!-- 10 iterations -->
 			<arg value="gnu.trove.benchmark.GetBenchmark"/>
 			<arg value="gnu.trove.benchmark.PutBenchmark"/>
 			<arg value="gnu.trove.benchmark.RemoveBenchmark"/>
-			<arg value="gnu.trove.benchmark.IteratorBenchmark"/>
+			<arg value="gnu.trove.benchmark.IterationBenchmark"/>
 			<arg value="gnu.trove.benchmark.ForEachBenchmark"/>
 			<arg value="gnu.trove.benchmark.ManyRemovalsBenchmark"/>
 		</java>

@@ -17,15 +17,6 @@ public class GetBenchmark extends AbstractComparisonBase {
 	// Bytes...
 
 	@Override
-	public void testByte_JavaHashMap() {
-		for( int j = 0; j < ITERATIONS_BYTE; j++ ) {
-			for( Byte i : Constants.BYTE_OBJECTS ) {
-				byte_java_map.get( i );
-			}
-		}
-	}
-
-	@Override
 	public void testByte_TPrimitiveHashMap() {
 		for( int j = 0; j < ITERATIONS_BYTE; j++ ) {
 			for( byte i : Constants.BYTES ) {
@@ -39,6 +30,15 @@ public class GetBenchmark extends AbstractComparisonBase {
 		for( int j = 0; j < ITERATIONS_BYTE; j++ ) {
 			for( Byte i : Constants.BYTE_OBJECTS ) {
 				byte_t_map.get( i );
+			}
+		}
+	}
+
+	@Override
+	public void testByte_JavaHashMap() {
+		for( int j = 0; j < ITERATIONS_BYTE; j++ ) {
+			for( Byte i : Constants.BYTE_OBJECTS ) {
+				byte_java_map.get( i );
 			}
 		}
 	}
@@ -65,15 +65,6 @@ public class GetBenchmark extends AbstractComparisonBase {
 	// Ints...
 
 	@Override
-	public void testInt_JavaHashMap() {
-		for( int j = 0; j < ITERATIONS_INT; j++ ) {
-			for( Integer i : Constants.INT_OBJECTS ) {
-				int_java_map.get( i );
-			}
-		}
-	}
-
-	@Override
 	public void testInt_TPrimitiveHashMap() {
 		for( int j = 0; j < ITERATIONS_INT; j++ ) {
 			for( int i : Constants.INTS ) {
@@ -87,6 +78,15 @@ public class GetBenchmark extends AbstractComparisonBase {
 		for( int j = 0; j < ITERATIONS_INT; j++ ) {
 			for( Integer i : Constants.INT_OBJECTS ) {
 				int_t_map.get( i );
+			}
+		}
+	}
+
+	@Override
+	public void testInt_JavaHashMap() {
+		for( int j = 0; j < ITERATIONS_INT; j++ ) {
+			for( Integer i : Constants.INT_OBJECTS ) {
+				int_java_map.get( i );
 			}
 		}
 	}
@@ -122,15 +122,6 @@ public class GetBenchmark extends AbstractComparisonBase {
 	// Objects...
 
 	@Override
-	public void testString_JavaHashMap() {
-		for( int j = 0; j < ITERATIONS_STRING; j++ ) {
-			for( String i : Constants.STRING_OBJECTS ) {
-				string_java_map.get( i );
-			}
-		}
-	}
-
-	@Override
 	public void testString_TPrimitiveHashMap() {
 		for( int j = 0; j < ITERATIONS_STRING; j++ ) {
 			for( String i : Constants.STRING_OBJECTS ) {
@@ -144,6 +135,15 @@ public class GetBenchmark extends AbstractComparisonBase {
 		for( int j = 0; j < ITERATIONS_STRING; j++ ) {
 			for( String i : Constants.STRING_OBJECTS ) {
 				string_t_map.get( i );
+			}
+		}
+	}
+
+	@Override
+	public void testString_JavaHashMap() {
+		for( int j = 0; j < ITERATIONS_STRING; j++ ) {
+			for( String i : Constants.STRING_OBJECTS ) {
+				string_java_map.get( i );
 			}
 		}
 	}
