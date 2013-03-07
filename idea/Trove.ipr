@@ -34,7 +34,6 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.6" />
   </component>
   <component name="CopyrightManager" default="">
     <module2copyright />
@@ -217,7 +216,7 @@
       <module fileurl="file://$PROJECT_DIR$/Generator.iml" filepath="$PROJECT_DIR$/Generator.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="$TROVE_JDK_NAME$" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="$TROVE_JDK_NAME$" project-jdk-type="JavaSDK">
     <output url="file://$TROVE_TOP_LEVEL$/idea_classes" />
   </component>
   <component name="ProjectRunConfigurationManager">
@@ -243,6 +242,17 @@
         <option name="WINDOW" value="false" />
         <option name="JVMPI" value="false" />
         <option name="INTERPRETED" value="false" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="bootstrapPath" />
+        <option name="debugPort" value="" />
+        <option name="jrebelArgs" />
+        <option name="loggingEnabled" value="false" />
+        <option name="transport" value="0" />
+        <option name="useBootstrapDefaults" value="true" />
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
