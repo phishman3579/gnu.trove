@@ -7,41 +7,15 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$TROVE_VCS_ROOT$/benchmarks/lib/colt-1.2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$TROVE_VCS_ROOT$/benchmarks/lib/caliper-0.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$TROVE_VCS_ROOT$/benchmarks/lib/allocation.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="module" module-name="Core" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$TROVE_VCS_ROOT$/benchmarks/lib/trove-2.1.0.jar!/" />
+          <root url="file://$TROVE_VCS_ROOT$/benchmarks/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+        <jarDirectory url="file://$TROVE_VCS_ROOT$/benchmarks/lib" recursive="false" />
       </library>
     </orderEntry>
   </component>

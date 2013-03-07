@@ -44,6 +44,24 @@ public class PutBenchmark extends AbstractComparisonBase {
 		}
 	}
 
+	@Override
+	public void testByte_Trove2PrimitiveHashMap() {
+		for( int j = 0; j < ITERATIONS_BYTE; j++ ) {
+			for( byte i : Constants.BYTES ) {
+				byte_t2_primitive_map.put( i, i );
+			}
+		}
+	}
+
+	@Override
+	public void testByte_Trove2HashMap() {
+		for( int j = 0; j < ITERATIONS_BYTE; j++ ) {
+			for( Byte i : Constants.BYTE_OBJECTS ) {
+				byte_t2_map.put( i, i );
+			}
+		}
+	}
+
 
 	// Ints...
 
@@ -74,6 +92,33 @@ public class PutBenchmark extends AbstractComparisonBase {
 		}
 	}
 
+	@Override
+	public void testInt_Trove2PrimitiveHashMap() {
+		for( int j = 0; j < ITERATIONS_INT; j++ ) {
+			for( int i : Constants.INTS ) {
+				int_t2_primitive_map.get( i );
+			}
+		}
+	}
+
+	@Override
+	public void testInt_Trove2HashMap() {
+		for( int j = 0; j < ITERATIONS_INT; j++ ) {
+			for( Integer i : Constants.INT_OBJECTS ) {
+				int_t2_map.put( i, i );
+			}
+		}
+	}
+
+	@Override
+	public void testInt_ColtPrimitiveHashMap() {
+		for( int j = 0; j < ITERATIONS_INT; j++ ) {
+			for( int i : Constants.INTS ) {
+				int_colt_primitive_map.get( i );
+			}
+		}
+	}
+
 
 	// Objects...
 
@@ -100,6 +145,24 @@ public class PutBenchmark extends AbstractComparisonBase {
 		for( int j = 0; j < ITERATIONS_STRING; j++ ) {
 			for( String i : Constants.STRING_OBJECTS ) {
 				string_t_map.put( i, i );
+			}
+		}
+	}
+
+	@Override
+	public void testString_Trove2PrimitiveHashMap() {
+		for( int j = 0; j < ITERATIONS_STRING; j++ ) {
+			for( String i : Constants.STRING_OBJECTS ) {
+				string_t2_primitive_map.get( i );
+			}
+		}
+	}
+
+	@Override
+	public void testString_Trove2HashMap() {
+		for( int j = 0; j < ITERATIONS_STRING; j++ ) {
+			for( String i : Constants.STRING_OBJECTS ) {
+				string_t2_map.put( i, i );
 			}
 		}
 	}
