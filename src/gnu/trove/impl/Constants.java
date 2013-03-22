@@ -23,8 +23,17 @@ package gnu.trove.impl;
  */
 public class Constants {
 
-    private static final boolean VERBOSE =
-            System.getProperty( "gnu.trove.verbose", null ) != null;
+    private static final boolean VERBOSE;
+	static {
+		boolean verbose = false;
+		try {
+			verbose = System.getProperty( "gnu.trove.verbose", null ) != null;
+		}
+		catch( SecurityException ex ) {
+			// ignore
+		}
+		VERBOSE = verbose;
+	}
 
     /** the default capacity for new collections */
     public static final int DEFAULT_CAPACITY = 10;
@@ -37,7 +46,13 @@ public class Constants {
     public static final byte DEFAULT_BYTE_NO_ENTRY_VALUE;
     static {
         byte value;
-        String property = System.getProperty( "gnu.trove.no_entry.byte", "0" );
+        String property = "0";
+	    try {
+		    property = System.getProperty( "gnu.trove.no_entry.byte", property );
+	    }
+	    catch( SecurityException ex ) {
+		    // ignore
+	    }
         if ( "MAX_VALUE".equalsIgnoreCase( property ) ) value = Byte.MAX_VALUE;
         else if ( "MIN_VALUE".equalsIgnoreCase( property ) ) value = Byte.MIN_VALUE;
         else value = Byte.valueOf( property );
@@ -56,7 +71,13 @@ public class Constants {
     public static final short DEFAULT_SHORT_NO_ENTRY_VALUE;
     static {
         short value;
-        String property = System.getProperty( "gnu.trove.no_entry.short", "0" );
+        String property = "0";
+	    try {
+		    property = System.getProperty( "gnu.trove.no_entry.short", property );
+	    }
+	    catch( SecurityException ex ) {
+		    // ignore
+	    }
         if ( "MAX_VALUE".equalsIgnoreCase( property ) ) value = Short.MAX_VALUE;
         else if ( "MIN_VALUE".equalsIgnoreCase( property ) ) value = Short.MIN_VALUE;
         else value = Short.valueOf( property );
@@ -75,7 +96,13 @@ public class Constants {
     public static final char DEFAULT_CHAR_NO_ENTRY_VALUE;
     static {
         char value;
-        String property = System.getProperty( "gnu.trove.no_entry.char", "\0" );
+        String property = "\0";
+	    try {
+		    property = System.getProperty( "gnu.trove.no_entry.char", property );
+	    }
+	    catch( SecurityException ex ) {
+		    // ignore
+	    }
         if ( "MAX_VALUE".equalsIgnoreCase( property ) ) value = Character.MAX_VALUE;
         else if ( "MIN_VALUE".equalsIgnoreCase( property ) ) value = Character.MIN_VALUE;
         else value = property.toCharArray()[0];
@@ -94,7 +121,13 @@ public class Constants {
     public static final int DEFAULT_INT_NO_ENTRY_VALUE;
      static {
         int value;
-        String property = System.getProperty( "gnu.trove.no_entry.int", "0" );
+        String property = "0";
+	    try {
+		    property = System.getProperty( "gnu.trove.no_entry.int", property );
+	    }
+	    catch( SecurityException ex ) {
+		    // ignore
+	    }
         if ( "MAX_VALUE".equalsIgnoreCase( property ) ) value = Integer.MAX_VALUE;
         else if ( "MIN_VALUE".equalsIgnoreCase( property ) ) value = Integer.MIN_VALUE;
         else value = Integer.valueOf( property );
@@ -110,7 +143,13 @@ public class Constants {
     public static final long DEFAULT_LONG_NO_ENTRY_VALUE;
     static {
         long value;
-        String property = System.getProperty( "gnu.trove.no_entry.long", "0" );
+        String property = "0";
+	    try {
+		    property = System.getProperty( "gnu.trove.no_entry.long", property );
+	    }
+	    catch( SecurityException ex ) {
+		    // ignore
+	    }
         if ( "MAX_VALUE".equalsIgnoreCase( property ) ) value = Long.MAX_VALUE;
         else if ( "MIN_VALUE".equalsIgnoreCase( property ) ) value = Long.MIN_VALUE;
         else value = Long.valueOf( property );
@@ -126,7 +165,13 @@ public class Constants {
     public static final float DEFAULT_FLOAT_NO_ENTRY_VALUE;
     static {
         float value;
-        String property = System.getProperty( "gnu.trove.no_entry.float", "0" );
+        String property = "0";
+	    try {
+		    property = System.getProperty( "gnu.trove.no_entry.float", property );
+	    }
+	    catch( SecurityException ex ) {
+		    // ignore
+	    }
         if ( "MAX_VALUE".equalsIgnoreCase( property ) ) value = Float.MAX_VALUE;
         else if ( "MIN_VALUE".equalsIgnoreCase( property ) ) value = Float.MIN_VALUE;
         // Value from Float.MIN_NORMAL (introduced in 1.6)
@@ -147,7 +192,13 @@ public class Constants {
     public static final double DEFAULT_DOUBLE_NO_ENTRY_VALUE;
     static {
         double value;
-        String property = System.getProperty( "gnu.trove.no_entry.double", "0" );
+        String property = "0";
+	    try {
+		    property = System.getProperty( "gnu.trove.no_entry.double", property );
+	    }
+	    catch( SecurityException ex ) {
+		    // ignore
+	    }
         if ( "MAX_VALUE".equalsIgnoreCase( property ) ) value = Double.MAX_VALUE;
         else if ( "MIN_VALUE".equalsIgnoreCase( property ) ) value = Double.MIN_VALUE;
         // Value from Double.MIN_NORMAL (introduced in 1.6)
