@@ -20,7 +20,9 @@
 
 package gnu.trove.list.array;
 
+import gnu.trove.TCollections;
 import gnu.trove.list.TIntList;
+import gnu.trove.list.TLongList;
 import junit.framework.TestCase;
 
 import java.io.ByteArrayInputStream;
@@ -300,4 +302,54 @@ public class TArrayListTest extends TestCase {
         int[] a = new int[]{1, 2, 3};
         i.retainAll(a);
     }
+
+	public void testIntUnmodifiableEquality() {
+		TIntList list1 = new TIntArrayList();
+		TIntList list2 = new TIntArrayList();
+
+		assertEquals( list1, list2 );
+		assertEquals( list1, TCollections.unmodifiableList( list2 ) );
+		assertEquals( TCollections.unmodifiableList( list1 ), list2 );
+		assertEquals( TCollections.unmodifiableList( list1 ),
+			TCollections.unmodifiableList( list2 ) );
+
+		list1.add( 1 );
+		list1.add( 2 );
+		list1.add( 3 );
+
+		list2.add( 1 );
+		list2.add( 2 );
+		list2.add( 3 );
+
+		assertEquals( list1, list2 );
+		assertEquals( list1, TCollections.unmodifiableList( list2 ) );
+		assertEquals( TCollections.unmodifiableList( list1 ), list2 );
+		assertEquals( TCollections.unmodifiableList( list1 ),
+			TCollections.unmodifiableList( list2 ) );
+	}
+
+	public void testLongUnmodifiableEquality() {
+		TLongList list1 = new TLongArrayList();
+		TLongList list2 = new TLongArrayList();
+
+		assertEquals( list1, list2 );
+		assertEquals( list1, TCollections.unmodifiableList( list2 ) );
+		assertEquals( TCollections.unmodifiableList( list1 ), list2 );
+		assertEquals( TCollections.unmodifiableList( list1 ),
+			TCollections.unmodifiableList( list2 ) );
+
+		list1.add( 1 );
+		list1.add( 2 );
+		list1.add( 3 );
+
+		list2.add( 1 );
+		list2.add( 2 );
+		list2.add( 3 );
+
+		assertEquals( list1, list2 );
+		assertEquals( list1, TCollections.unmodifiableList( list2 ) );
+		assertEquals( TCollections.unmodifiableList( list1 ), list2 );
+		assertEquals( TCollections.unmodifiableList( list1 ),
+			TCollections.unmodifiableList( list2 ) );
+	}
 }

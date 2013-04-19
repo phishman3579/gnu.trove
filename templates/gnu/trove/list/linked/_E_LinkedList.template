@@ -1009,38 +1009,37 @@ public class T#E#LinkedList implements T#E#List, Externalizable {
         return ref == null;
     }
 
+
+    // comparing
+
+    /** {@inheritDoc} */
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        T#E#LinkedList that = (T#E#LinkedList) o;
-
-        if (no_entry_value != that.no_entry_value) return false;
-        if (size != that.size) return false;
-
-        T#E#Iterator iterator = iterator();
-        T#E#Iterator thatIterator = that.iterator();
-        while (iterator.hasNext()) {
-            if (!thatIterator.hasNext())
-                return false;
-
-            if (iterator.next() != thatIterator.next())
-                return false;
+    public boolean equals( Object other ) {
+        if ( other == this ) {
+            return true;
         }
+        if ( !( other instanceof T#E#List ) ) return false;
 
+        T#E#List that = ( T#E#List )other;
+        if ( size() != that.size() ) return false;
+
+        for( int i = 0; i < size(); i++ ) {
+            if ( get( i ) != that.get( i ) ) {
+                return false;
+            }
+        }
         return true;
     }
 
+
+    /** {@inheritDoc} */
     @Override
     public int hashCode() {
-        int result = HashFunctions.hash(no_entry_value);
-        result = 31 * result + size;
-        for (T#E#Iterator iterator = iterator(); iterator.hasNext();) {
-            result = 31 * result + HashFunctions.hash(iterator.next());
+        int h = 0;
+        for ( int i = size(); i-- > 0; ) {
+            h += HashFunctions.hash( get( i ) );
         }
-
-        return result;
+        return h;
     }
 
     @Override
