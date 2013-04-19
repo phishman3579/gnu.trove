@@ -743,17 +743,18 @@ public class T#E#ArrayList implements T#E#List, Externalizable {
         if ( other instanceof T#E#ArrayList ) {
             T#E#ArrayList that = ( T#E#ArrayList )other;
             if ( that.size() != this.size() ) return false;
-            else {
-                for ( int i = _pos; i-- > 0; ) {
-                    if ( this._data[ i ] != that._data[ i ] ) {
-                        return false;
-                    }
+
+            for ( int i = _pos; i-- > 0; ) {
+                if ( this._data[ i ] != that._data[ i ] ) {
+                    return false;
                 }
-                return true;
             }
+            return true;
         }
         else {
             T#E#List that = ( T#E#List )other;
+            if ( that.size() != this.size() ) return false;
+
             for( int i = 0; i < _pos; i++ ) {
                 if ( this._data[ i ] != that.get( i ) ) {
                     return false;
