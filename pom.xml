@@ -7,7 +7,7 @@
     <groupId>net.sf.trove4j</groupId>
     <artifactId>trove4j</artifactId>
     <version>3.0rc-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>bundle</packaging>
     <name>GNU Trove</name>
     <description>The Trove library provides high speed regular and
         primitive collections for Java.
@@ -98,18 +98,27 @@
                 </dependencies>
             </plugin>
             <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <version>2.3.7</version>
+                <configuration>
+                    <instructions>
+                        <Main-Class>gnu.trove.Version</Main-Class>
+                        <Implementation-Vendor>${project.groupId}</Implementation-Vendor>
+                        <Implementation-Version>${project.version} ${maven.build.timestamp}</Implementation-Version>
+
+                        <Export-Package>gnu.trove*;version=${project.version}</Export-Package>
+                    </instructions>
+                </configuration>
+                <extensions>true</extensions>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>2.3.1</version>
                 <configuration>
                     <archive>
                         <index>true</index>
-                        <manifestEntries>
-                            <Implementation-Vendor>${project.version} ${maven.build.timestamp}</Implementation-Vendor>
-                        </manifestEntries>
-                        <manifest>
-                            <mainClass>gnu.trove.Version</mainClass>
-                        </manifest>
                     </archive>
                 </configuration>
             </plugin>
