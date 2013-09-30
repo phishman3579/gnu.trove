@@ -159,6 +159,9 @@ public class T#E#HashSet extends T#E#Hash implements T#E#Set, Externalizable {
     /** {@inheritDoc} */
     public #e#[] toArray() {
         #e#[] result = new #e#[ size() ];
+        if ( result.length == 0 ) {
+            return result;      // nothing to copy
+        }
         #e#[] set = _set;
         byte[] states = _states;
 
@@ -173,6 +176,9 @@ public class T#E#HashSet extends T#E#Hash implements T#E#Set, Externalizable {
 
     /** {@inheritDoc} */
     public #e#[] toArray( #e#[] dest ) {
+        if ( dest.length == 0 ) {
+            return dest;        // nothing to copy
+        }
         #e#[] set = _set;
         byte[] states = _states;
 
