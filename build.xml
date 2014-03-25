@@ -134,7 +134,7 @@
 				<attribute name="Implementation-Title" value="${Name}"/>
 				<attribute name="Implementation-Version" value="${version}"/>
 				<attribute name="Implementation-URL"
-				           value="http://trove4j.sourceforge.net/"/>
+				           value="https://bitbucket.org/robeden/trove/"/>
 				<attribute name="Sealed" value="false"/>
 			</manifest>
 		</jar>

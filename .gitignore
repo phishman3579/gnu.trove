@@ -5,3 +5,8 @@
 # IDE Workspace Files #
 #######################
 *.iws
+
+
+# Gradle noise
+.gradle
+*/build
