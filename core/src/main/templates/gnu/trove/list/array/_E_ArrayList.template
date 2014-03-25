@@ -139,7 +139,6 @@ public class T#E#ArrayList implements T#E#List, Externalizable {
      * an IllegalStateException will be thrown
      *
      * @param values
-     * @return
      */
     public static T#E#ArrayList wrap(#e#[] values) {
         return wrap(values, ( #e# ) 0);
@@ -153,7 +152,6 @@ public class T#E#ArrayList implements T#E#List, Externalizable {
      *
      * @param values
      * @param no_entry_value
-     * @return
      */
     public static T#E#ArrayList wrap(#e#[] values, #e# no_entry_value) {
         return new T#E#ArrayList(values, no_entry_value, true) {

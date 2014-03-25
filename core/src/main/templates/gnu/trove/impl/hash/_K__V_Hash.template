@@ -264,7 +264,7 @@ abstract public class T#K##V#Hash extends TPrimitiveHash {
      * there is already a value equal()ing <tt>val</tt> in the set,
      * returns that value as a negative integer.
      *
-     * @param key an <code>#k#</code> value
+     * @param val an <code>#k#</code> value
      * @return an <code>int</code> value
      */
          protected int insertKey( #k# val ) {

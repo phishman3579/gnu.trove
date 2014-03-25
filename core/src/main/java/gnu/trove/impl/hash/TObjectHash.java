@@ -188,7 +188,6 @@ abstract public class TObjectHash<T> extends THash {
      * @param index we start from
      * @param hash
      * @param cur
-     * @return
      */
     private int indexRehashed(Object obj, int index, int hash, Object cur) {
         final Object[] set = _set;
@@ -228,7 +227,6 @@ abstract public class TObjectHash<T> extends THash {
      * <p/>
      * --> this result a simpler loop
      *
-     * @return
      */
     private int indexForNull() {
         int index = 0;
@@ -250,7 +248,6 @@ abstract public class TObjectHash<T> extends THash {
      * changes made to the logic.
      *
      * @param obj
-     * @return
      * @deprecated use {@link #insertKey} instead
      */
     @Deprecated
@@ -302,7 +299,6 @@ abstract public class TObjectHash<T> extends THash {
      * @param index natural index
      * @param hash
      * @param cur   value of first matched slot
-     * @return
      */
     private int insertKeyRehash(T key, int index, int hash, Object cur) {
         final Object[] set = _set;
@@ -366,7 +362,6 @@ abstract public class TObjectHash<T> extends THash {
      * - the probe value is 1 for this case
      * - object identity can be used to match this case
      *
-     * @return
      */
     private int insertKeyForNull() {
         int index = 0;
@@ -521,7 +516,6 @@ abstract public class TObjectHash<T> extends THash {
      *
      * @param keys
      * @param oldSize
-     * @return
      */
     private static String detectKeyLoss(Object[] keys, int oldSize) {
         StringBuilder buf = new StringBuilder();

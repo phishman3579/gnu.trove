@@ -217,7 +217,6 @@ public class T#E#LinkedList implements T#E#List, Externalizable {
          * @param l
          * @param idx
          * @param offset
-         * @return
          */
         private static T#E#Link getLink(T#E#Link l, int idx, int offset) {
             return getLink(l, idx, offset, true);
@@ -229,7 +228,6 @@ public class T#E#LinkedList implements T#E#List, Externalizable {
          * @param idx
          * @param offset
          * @param next
-         * @return
          */
         private static T#E#Link getLink(T#E#Link l, int idx, int offset, boolean next) {
             int i = idx;
