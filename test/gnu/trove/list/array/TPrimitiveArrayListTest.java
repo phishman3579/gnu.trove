@@ -1261,7 +1261,7 @@ public class TPrimitiveArrayListTest extends TestCase {
     }
 
 
-    public void testReset() {
+    public void testClear() {
         int element_count = 20;
         TIntArrayList a = new TIntArrayList( 20, Integer.MIN_VALUE );
         for ( int i = 1; i <= element_count; i++ ) {
@@ -1269,7 +1269,7 @@ public class TPrimitiveArrayListTest extends TestCase {
         }
 
         assertEquals( element_count, a.size() );
-        a.reset();
+        a.clear();
         assertEquals( 0, a.size() );
 
         for ( int i = 0; i < element_count; i++ ) {
