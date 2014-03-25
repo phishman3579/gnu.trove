@@ -23,7 +23,7 @@
 
 	<property name="Name" value="Trove"/>
 	<property name="name" value="trove"/>
-	<property name="year" value="2001-2011"/>
+	<property name="year" value="2001-2014"/>
 
 	<property name="debug" value="on"/>
 	<property name="deprecation" value="on"/>
