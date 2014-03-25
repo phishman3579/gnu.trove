@@ -363,6 +363,27 @@ public class TPrimitiveHashSetTest extends TestCase {
     }
 
 
+	// Test for issue #34 (https://bitbucket.org/robeden/trove/issue/34)
+	public void testToArraySmallerInput() {
+        TIntSet set = new TIntHashSet();
+        int[] ints = {42, 1138, 13, 86, 99};
+        set.addAll(ints);
+
+
+		int[] input = new int[ 3 ];
+		int[] result = set.toArray( input );
+
+		assertNotSame( input, result );
+		assertEquals( 5, result.length );
+		Arrays.sort( result );
+		assertEquals( result[ 0 ], 13 );
+		assertEquals( result[ 1 ], 42 );
+		assertEquals( result[ 2 ], 86 );
+		assertEquals( result[ 3 ], 99 );
+		assertEquals( result[ 4 ], 1138 );
+	}
+
+
     public void testToArrayMatchesIteratorOrder() {
         TIntSet set = new TIntHashSet();
         int[] ints = {42, 1138, 13, 86, 99};

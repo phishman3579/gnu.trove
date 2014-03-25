@@ -45,7 +45,7 @@ public interface T#E#ObjectMap<V> {
 
     /**
      * Returns the value that represents null in the {@link #keySet()}.
-     * The default value is generally zero, but can be changed during
+     * The default value is generally zero, but can be configured during
      * construction of the collection.
      *
      * @return the value that represents a null value in this collection.

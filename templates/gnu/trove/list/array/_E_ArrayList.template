@@ -45,14 +45,15 @@ import java.util.*;
 public class T#E#ArrayList implements T#E#List, Externalizable {
 	static final long serialVersionUID = 1L;
 
+    /** the default capacity for new lists */
+    protected static final int DEFAULT_CAPACITY = Constants.DEFAULT_CAPACITY;
+
+
     /** the data of the list */
     protected #e#[] _data;
 
     /** the index after the last entry in the list */
     protected int _pos;
-
-    /** the default capacity for new lists */
-    protected static final int DEFAULT_CAPACITY = Constants.DEFAULT_CAPACITY;
 
     /** the #e# value that represents null */
     protected #e# no_entry_value;
@@ -340,40 +341,19 @@ public class T#E#ArrayList implements T#E#List, Externalizable {
 
     /** {@inheritDoc} */
     public void clear() {
-        clear( DEFAULT_CAPACITY );
-    }
-
-
-    /**
-     * Flushes the internal state of the list, setting the capacity of the empty list to
-     * <tt>capacity</tt>.
-     */
-    public void clear( int capacity ) {
-        _data = new #e#[ capacity ];
-        _pos = 0;
-    }
-
-
-    /**
-     * Sets the size of the list to 0, but does not change its capacity. This method can
-     * be used as an alternative to the {@link #clear()} method if you want to recycle a
-     * list without allocating new backing arrays.
-     */
-    public void reset() {
-        _pos = 0;
+        clearQuick();
         Arrays.fill( _data, no_entry_value );
     }
 
 
     /**
      * Sets the size of the list to 0, but does not change its capacity. This method can
-     * be used as an alternative to the {@link #clear()} method if you want to recycle a
-     * list without allocating new backing arrays. This method differs from
-     * {@link #reset()} in that it does not clear the old values in the backing array.
+     * be used as an alternative to the {@link #clear()} method if you want reset the list
+     * state without incurring the cost of filling bank data in the list.
      * Thus, it is possible for getQuick to return stale data if this method is used and
      * the caller is careless about bounds checking.
      */
-    public void resetQuick() {
+    public void clearQuick() {
         _pos = 0;
     }
 
