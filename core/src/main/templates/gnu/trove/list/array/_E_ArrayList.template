@@ -589,7 +589,7 @@ public class T#E#ArrayList implements T#E#List, Externalizable {
 
     /** {@inheritDoc} */
     public void transformValues( T#E#Function function ) {
-        for ( int i = _pos; i-- > 0; ) {
+        for ( int i = 0; i < _pos; i++ ) {
             _data[ i ] = function.execute( _data[ i ] );
         }
     }
