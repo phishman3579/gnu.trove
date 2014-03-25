@@ -158,27 +158,16 @@ public class T#E#HashSet extends T#E#Hash implements T#E#Set, Externalizable {
 
     /** {@inheritDoc} */
     public #e#[] toArray() {
-        #e#[] result = new #e#[ size() ];
-        if ( result.length == 0 ) {
-            return result;      // nothing to copy
-        }
-        #e#[] set = _set;
-        byte[] states = _states;
-
-        for ( int i = states.length, j = 0; i-- > 0; ) {
-            if ( states[i] == FULL ) {
-                result[j++] = set[i];
-            }
-        }
-        return result;
+        return toArray( new #e#[ _size ] );
     }
 
 
     /** {@inheritDoc} */
     public #e#[] toArray( #e#[] dest ) {
-        if ( dest.length == 0 ) {
-            return dest;        // nothing to copy
+        if ( dest.length < _size ) {
+            dest = new #e#[ _size ];
         }
+
         #e#[] set = _set;
         byte[] states = _states;
 

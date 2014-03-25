@@ -249,6 +249,26 @@ public class THashSetTest extends TestCase {
     }
 
 
+	// Test for issue #34 (https://bitbucket.org/robeden/trove/issue/34)
+	public void testToArraySmallerInput() {
+        Set<String> s = new THashSet<String>();
+        String[] str = {"hi", "bye", "hello", "goodbye"};
+        s.addAll( Arrays.asList( str ) );
+
+
+		String[] input = new String[ 3 ];
+		String[] result = s.toArray( input );
+
+		assertNotSame( input, result );
+		assertEquals( 4, result.length );
+		Arrays.sort( result );
+		assertEquals( result[ 0 ], "bye" );
+		assertEquals( result[ 1 ], "goodbye" );
+		assertEquals( result[ 2 ], "hello" );
+		assertEquals( result[ 3 ], "hi" );
+	}
+
+
     @SuppressWarnings({"ToArrayCallWithZeroLengthArrayArgument", "SuspiciousToArrayCall"})
     public void testToArrayAnotherType() throws Exception {
         Set<Number> set = new THashSet<Number>();
