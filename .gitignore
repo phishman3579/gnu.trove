@@ -2,11 +2,12 @@
 ###################
 *.class
 
-# IDE Workspace Files #
-#######################
-*.iws
-
 
 # Gradle noise
 .gradle
 */build
+
+# IDEA noise
+.idea
+*.iml
+*.iws

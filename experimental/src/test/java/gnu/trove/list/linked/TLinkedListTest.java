@@ -1063,7 +1063,6 @@ public class TLinkedListTest extends TestCase {
 	}
 
 	public void testBinarySearch() {
-		System.out.println( "Java version: " + System.getProperty( "java.version" ) );
 		TIntList list;
 
 		// Uncomment to stress test
@@ -1081,9 +1080,6 @@ public class TLinkedListTest extends TestCase {
 		list = new TIntLinkedList();
 		list.add( 5 );
 
-		// Uncomment this to see infinite loop from bug 3379877
-//		list.binarySearch( 6 );
-
 		assertEquals( -1, list.binarySearch( Integer.MIN_VALUE ) );
 		assertEquals( -1, list.binarySearch( -1 ) );
 		assertEquals( -1, list.binarySearch( 0 ) );
@@ -1095,6 +1091,23 @@ public class TLinkedListTest extends TestCase {
 		assertEquals( 0, list.binarySearch( 5 ) );
 
 		assertEquals( -2, list.binarySearch( 6 ) );
+
+
+
+
+        // Test for https://bitbucket.org/robeden/trove/issue/47
+//        TLongList nums = new TLongLinkedList();
+//        nums.add( 1L );
+//        nums.add( 2L );
+//        nums.add( 3L );
+//        nums.add( 4L );
+//        nums.add( 6L );
+//        nums.add( 7L );
+//        nums.add( 8L );
+//        nums.add( 9L );
+//        nums.add( 10L );
+////        nums.sort();
+//        assertEquals( 3, nums.binarySearch( 4L ) );
 	}
 
 
