@@ -1130,6 +1130,16 @@ public class TLinkedListTest extends TestCase {
 		assertEquals( list.indexOf( 3 ), 3 );
 	}
 
+
+    // Test for https://bitbucket.org/robeden/trove/issue/41
+    public void testIndexOfEmpty() {
+        TIntLinkedList list = new TIntLinkedList();
+
+        assertEquals( -1, list.indexOf( 0 ) );
+
+        assertEquals( -1, list.indexOf( 1, 0 ) );
+    }
+
 	public void testIntUnmodifiableEquality() {
 		TIntList list1 = new TIntLinkedList();
 		TIntList list2 = new TIntLinkedList();

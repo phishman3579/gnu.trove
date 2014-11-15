@@ -762,6 +762,8 @@ public class T#E#LinkedList implements T#E#List, Externalizable {
 
     /** {@inheritDoc} */
     public int indexOf(int offset, #e# value) {
+        if ( size == 0 ) return -1;
+
         int count = offset;
 
         T#E#Link l;
