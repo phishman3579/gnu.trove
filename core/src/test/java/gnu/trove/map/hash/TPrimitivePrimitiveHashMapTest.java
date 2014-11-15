@@ -2041,7 +2041,42 @@ public class TPrimitivePrimitiveHashMapTest extends TestCase {
         assertEquals( map, deserialized );
     }
 
-    /** a non TIntLongHashMap to test putAll exception */
+
+	public void testTIntLongMapEquals() {
+		assertEquals( MIL( 0, 0 ), MIL( 0, 0 ) );
+		assertNotEquals( MIL( 0, 1 ), MIL( 0, 0 ) );
+		assertNotEquals( MIL( 1, 0 ), MIL( 0, 0 ) );
+
+		assertEquals( MIL( 0, 1 ), MIL( 0, 1 ) );
+		assertNotEquals( MIL( 1, 0 ), MIL( 0, 1 ) );
+		assertNotEquals( MIL( 0, 0 ), MIL( 0, 1 ) );
+
+		assertEquals( MIL( 1, 0 ), MIL( 1, 0 ) );
+		assertNotEquals( MIL( 0, 0 ), MIL( 1, 0 ) );
+		assertNotEquals( MIL( 0, 1 ), MIL( 1, 0 ) );
+
+		assertEquals( MIL( 1, 1 ), MIL( 1, 1 ) );
+		assertNotEquals( MIL( 1, 0 ), MIL( 1, 1 ) );
+		assertNotEquals( MIL( 0, 1 ), MIL( 1, 1 ) );
+		assertNotEquals( MIL( 0, 0 ), MIL( 1, 1 ) );
+
+		assertEquals( new TIntLongHashMap(), new TIntLongHashMap() );
+	}
+
+	public static TIntLongMap MIL( long... elements ) {
+		int hashSize = elements.length / 2;
+		TIntLongMap result = new TIntLongHashMap( hashSize );
+		for ( int i = 0; i < hashSize; i++ ) {
+			//noinspection unchecked
+			result.put( ( int ) elements[ i * 2 ], elements[ i * 2 + 1 ] );
+		}
+		return result;
+	}
+
+
+
+
+	/** a non TIntLongHashMap to test putAll exception */
 //    class BadMap implements TIntLongMap  {
 //        public int getNoEntryKey() { return 0; }
 //        public long getNoEntryValue() { return 0; }
