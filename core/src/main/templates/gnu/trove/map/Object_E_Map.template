@@ -272,22 +272,25 @@ public interface TObject#E#Map<K> {
 
 
     /**
-     * Adjusts the primitive value mapped to key.
+     * Adds an amount to the primitive value mapped to key. If the key does not exist,
+     * the map is not modified (key-value is not inserted).
      *
      * @param key the key of the value to increment
-     * @param amount the amount to adjust the value by.
-     * @return true if a mapping was found and modified.
+     * @param amount the amount to add to the value; may be positive, zero, or negative
+     * @return true if a mapping was found and modified
+     * @see #adjustOrPutValue(Object, #e#, #e#)
      */
     public boolean adjustValue( K key, #e# amount );
 
 
     /**
-     * Adjusts the primitive value mapped to the key if the key is present in the map.
-     * Otherwise, the <tt>initial_value</tt> is put in the map.
+     * Adds an amount to the primitive value mapped to the key if the key is present in
+     * the map. Otherwise, the <tt>put_amount</tt> is put in the map.
      *
      * @param key the key of the value to increment
-     * @param adjust_amount the amount to adjust the value by
-     * @param put_amount the value put into the map if the key is not initial present
+     * @param adjust_amount the amount to add to the value; may be positive, zero,
+     *        or negative
+     * @param put_amount the value put into the map if the key is not present
      *
      * @return the value present in the map after the adjustment or put operation
      */

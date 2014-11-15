@@ -5,6 +5,7 @@ Note:
 Bugs Fixed:
   - [2]  Incorrect Equals in all primitive HashMaps
   - [43] Incorrect javadoc for TObjectIntMap.get()
+  - [46] TObjectDoubleHashMap.adjustValue() and .adjustOrPutValue() javadocs need clarification
 
 --- 3.0.4 ---
 Bugs Fixed:
