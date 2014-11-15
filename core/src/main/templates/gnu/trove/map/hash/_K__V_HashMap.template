@@ -1207,11 +1207,16 @@ public class T#K##V#HashMap extends T#K##V#Hash implements T#K##V#Map, Externali
         for ( int i = values.length; i-- > 0; ) {
             if ( states[i] == FULL ) {
                 #k# key = _set[i];
+
+                if ( !that.containsKey( key ) ) return false;
+
                 #v# that_value = that.get( key );
                 #v# this_value = values[i];
-                if ( ( this_value != that_value ) &&
-                     ( this_value != this_no_entry_value ) &&
-                     ( that_value != that_no_entry_value ) ) {
+                if ((this_value != that_value)
+                    && ( (this_value != this_no_entry_value)
+                    || (that_value != that_no_entry_value))
+                    ) {
+
                     return false;
                 }
             }

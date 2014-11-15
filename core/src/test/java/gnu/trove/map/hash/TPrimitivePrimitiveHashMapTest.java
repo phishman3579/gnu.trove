@@ -2075,6 +2075,11 @@ public class TPrimitivePrimitiveHashMapTest extends TestCase {
 
 
 
+    private void assertNotEquals( Object one, Object two ) {
+        assertFalse( one.equals( two ) );
+    }
+
+
 
 	/** a non TIntLongHashMap to test putAll exception */
 //    class BadMap implements TIntLongMap  {
