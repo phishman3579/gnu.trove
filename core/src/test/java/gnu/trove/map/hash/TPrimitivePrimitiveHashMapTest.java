@@ -2063,6 +2063,31 @@ public class TPrimitivePrimitiveHashMapTest extends TestCase {
 		assertEquals( new TIntLongHashMap(), new TIntLongHashMap() );
 	}
 
+
+    public void testIssue3() {
+        // initialize the int maps
+        TIntIntMap intMap1 = new TIntIntHashMap();
+        TIntIntMap intMap2 = new TIntIntHashMap();
+
+        intMap1.put(1, 1);
+        intMap1.put(2, 2);
+        intMap2.put(1, 1);
+        intMap2.put(2, 2);
+
+        // confirm symmetric equality
+        assert intMap1.equals(intMap2);
+        assert intMap2.equals(intMap1);
+
+        // in the second map, change value for 2 to 0 (null)
+        intMap2.put(2, 0);
+
+        // confirm symmetric equality
+        assert !intMap2.equals(intMap1);
+        assert !intMap1.equals(intMap2);
+    }
+
+
+
 	public static TIntLongMap MIL( long... elements ) {
 		int hashSize = elements.length / 2;
 		TIntLongMap result = new TIntLongHashMap( hashSize );
