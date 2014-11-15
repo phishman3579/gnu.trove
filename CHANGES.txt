@@ -1,3 +1,11 @@
+--- 3.0.5 ---
+Note:
+  - Issue tracking is now done on BitBucket (https://bitbucket.org/robeden/trove) so
+    numbers will look considerably shorter.
+Bugs Fixed:
+  - [2]  Incorrect Equals in all primitive HashMaps
+  - [43] Incorrect javadoc for TObjectIntMap.get()
+
 --- 3.0.4 ---
 Bugs Fixed:
   - [3552578] TUnmodifiableIntList equals is broken
