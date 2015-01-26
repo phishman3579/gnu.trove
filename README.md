@@ -1,22 +1,21 @@
 
 <h2>GNU Trove: High performance collections for Java.</h2>
-<br>
+
 <h3>Objectives</h3>
-<br>
+   <ol>
    The GNU Trove library has two objectives:
-    1. Provide "free" (as in "free speech" and "free beer"), fast,
+    <li> Provide "free" (as in "free speech" and "free beer"), fast,
        lightweight implementations of the java.util Collections API.
        These implementations are designed to be pluggable replacements
-       for their JDK equivalents.
-    2. Whenever possible, provide the same collections support for
+       for their JDK equivalents.</li>
+    <li> Whenever possible, provide the same collections support for
        primitive types. This gap in the JDK is often addressed by using
        the "wrapper" classes (java.lang.Integer, java.lang.Float, etc.)
        with Object-based collections. For most applications, however,
        collections which store primitives directly will require less
-       space and yield significant performance gains.
-<br>
+       space and yield significant performance gains.</li>
+
 <h3>Hashtable techniques</h3>
-<br>
    The Trove maps/sets use open addressing instead of the chaining
    approach taken by the JDK hashtables. This eliminates the need to
    create Map.Entry wrappper objects for every item in a table and so
@@ -29,7 +28,6 @@
    "values" array.
 <br>
 <h3>Hashing strategies</h3>
-<br>
    Trove's maps/sets support the use of custom hashing strategies,
    allowing you to tune collections based on characteristics of the input
    data. This feature also allows you to define hash functions when it is
@@ -96,7 +94,6 @@
 ````
 <br>
 <h3>Iterators in primitive collections</h3>
-<br>
    Trove's primitive mappings include access through Iterators as well
    as procedures and functions. The API documentation on those classes
    contains several examples showing how these can be used effectively
