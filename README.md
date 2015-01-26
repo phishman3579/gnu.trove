@@ -1,8 +1,8 @@
 
-   GNU Trove: High performance collections for Java.
-
-Objectives
-
+<h2>GNU Trove: High performance collections for Java.</h2>
+<br>
+<h3>Objectives</h3>
+<br>
    The GNU Trove library has two objectives:
     1. Provide "free" (as in "free speech" and "free beer"), fast,
        lightweight implementations of the java.util Collections API.
@@ -14,9 +14,9 @@ Objectives
        with Object-based collections. For most applications, however,
        collections which store primitives directly will require less
        space and yield significant performance gains.
-
-Hashtable techniques
-
+<br>
+<h3>Hashtable techniques</h3>
+<br>
    The Trove maps/sets use open addressing instead of the chaining
    approach taken by the JDK hashtables. This eliminates the need to
    create Map.Entry wrappper objects for every item in a table and so
@@ -27,9 +27,9 @@ Hashtable techniques
    performance-degrading collisions. Trove sets are not backed by maps,
    and so using a THashSet does not result in the allocation of an unused
    "values" array.
-
-Hashing strategies
-
+<br>
+<h3>Hashing strategies</h3>
+<br>
    Trove's maps/sets support the use of custom hashing strategies,
    allowing you to tune collections based on characteristics of the input
    data. This feature also allows you to define hash functions when it is
@@ -38,28 +38,30 @@ Hashing strategies
    takes O(n) time to complete. In some applications, however, it may be
    possible for a custom hashing function to save time by skipping
    portions of the string that are invariant.
-
+<br>
    Using java.util.HashMap, it is not possible to use Java language
    arrays as keys. For example, this code:
+````
     char[] foo, bar;
     foo = new char[] {'a','b','c'};
     bar = new char[] {'a','b','c'};
     System.out.println(foo.hashCode() == bar.hashCode() ?
       "equal" : "not equal");
     System.out.println(foo.equals(bar) ? "equal" : "not equal");
-    
-
+````
    produces this output:
+````
     not equal
     not equal
-    
-
+````
+<br>
    And so an entry stored in a java.util.HashMap with foo as a key could
    not be retrieved with bar, since there is no way to override
    hashCode() or equals() on language array objects.
-
+<br>
    In a gnu.trove.map.hash.TCustomHashMap, however, you can implement a
    gnu.trove.strategy.HashingStrategy to enable hashing on arrays:
+````
     class CharArrayStrategy implements HashingStrategy {
         public int computeHashCode(Object o) {
             char[] c = (char[])o;
@@ -73,7 +75,8 @@ Hashing strategies
             }
             return h;
         }
-
+````
+````
         public boolean equals(Object o1, Object o2) {
             char[] c1 = (char[])o1;
             char[] c2 = (char[])o2;
@@ -90,16 +93,12 @@ Hashing strategies
             return true;
         }
     }
-    
-
-Iterators in primitive collections
-
+````
+<br>
+<h3>Iterators in primitive collections</h3>
+<br>
    Trove's primitive mappings include access through Iterators as well
    as procedures and functions. The API documentation on those classes
    contains several examples showing how these can be used effectively
    and explaining why their semantics differ from those of
    java.util.Iterator.
-
-_________________________________________________________________
-
-   Last modified: Sep 9, 2011
